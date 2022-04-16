@@ -1221,7 +1221,7 @@ if (typeof exports == "object") {
 ;
 'use strict';
 
-System.register('sijad/jalali/main', ['flarum/app', 'flarum/extend'], function (_export, _context) {
+System.register('wpvar/jalali/main', ['flarum/app', 'flarum/extend'], function (_export, _context) {
   "use strict";
 
   var app, override;
@@ -1233,7 +1233,7 @@ System.register('sijad/jalali/main', ['flarum/app', 'flarum/extend'], function (
     }],
     execute: function () {
 
-      app.initializers.add('sijad-jalali', function () {
+      app.initializers.add('wpvar-jalali', function () {
         var formatsMap = {
           'D MMM': 'jD jMMMM',
           'MMM \'YY': 'jYYYY jMMMM',

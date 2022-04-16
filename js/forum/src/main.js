@@ -1,7 +1,7 @@
 import app from 'flarum/app';
 import { override } from 'flarum/extend';
 
-app.initializers.add('sijad-jalali', () => {
+app.initializers.add('wpvar-jalali', () => {
   const formatsMap = {
     'D MMM': 'jD jMMMM',
     'MMM \'YY': 'jYYYY jMMMM',
