@@ -1221,7 +1221,7 @@ if (typeof exports == "object") {
 ;
 'use strict';
 
-System.register('sijad/jalali/main', ['flarum/app', 'flarum/extend'], function (_export, _context) {
+System.register('wpvar/jalali/main', ['flarum/app', 'flarum/extend'], function (_export, _context) {
   "use strict";
 
   var app, override;

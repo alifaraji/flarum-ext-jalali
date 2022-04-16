@@ -2,7 +2,7 @@
 
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Contracts\Bus\Dispatcher as BusDispatcher;
-use Sijad\Jalali\Listener;
+use wpvar\Jalali\Listener;
 
 
 return function (Dispatcher $events, BusDispatcher $bus) {

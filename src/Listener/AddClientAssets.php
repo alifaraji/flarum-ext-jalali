@@ -1,6 +1,6 @@
 <?php
 
-namespace Sijad\Jalali\Listener;
+namespace wpvar\Jalali\Listener;
 
 use Flarum\Event\ConfigureClientView;
 use Illuminate\Contracts\Events\Dispatcher;
@@ -18,7 +18,7 @@ class AddClientAssets
             $event->addAssets([
                 __DIR__.'/../../js/forum/dist/extension.js',
             ]);
-            $event->addBootstrapper('sijad/jalali/main');
+            $event->addBootstrapper('wpvar/jalali/main');
         }
     }
 }
