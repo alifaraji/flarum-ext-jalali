@@ -1,5 +1,5 @@
 {
-    "name": "sijad/flarum-ext-jalali",
+    "name": "wpvar/flarum-ext-jalali",
     "description": "Jalali date for Flarum.",
     "type": "flarum-extension",
     "keywords": ["jalali", "shamsi", "flarum-extension", "persian-flarum"],
